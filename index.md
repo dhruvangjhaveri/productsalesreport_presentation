@@ -1,0 +1,71 @@
+---
+title       : Product Sales Report
+subtitle    : An Interactive App
+author      : Dhruvang Jhaveri
+job         : 
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : []            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+knit        : slidify::knit2slides
+---
+
+## Motivation
+
+HomeLine Products is a Manufacturing Firm that produces a wide variety of 
+plastic products. These products can be broadly classified into 11 different
+categories as follows,
+
+```
+##  [1] Lunch Box                       Water Bottle                   
+##  [3] Compass Box                     Food Store Container & Bowls   
+##  [5] Tray & Plates                   Glasses                        
+##  [7] Stationery Items                Soap Case & Bath Tumblers      
+##  [9] Other Items                     Meal Set Items & Gift Set Items
+## [11] Cloth Clips                    
+## 11 Levels: Cloth Clips Compass Box ... Water Bottle
+```
+
+
+This app allows the user to see the sales of each product over a desired
+span of time and shows how much a particular product contributes to the 
+overall sales as well as the sales of the particular category to which the product belongs. The app contains data from January 2015 to March 2016.
+
+IMPORTANT NOTE- The sales numbers have been randomised and manipulated 
+in order to avoid disclosing confidential company data.
+
+--- .class #id 
+
+## Input/Outputs Explained
+
+Inputs-
+The Begning Month, Begning Year, Ending Month and Ending Year allows the user to enter a span of time for which sales has to be viewed.
+
+Group visiblity controls what categories the user wants to view.
+
+Outputs-
+The Output is a datatable that shows the Items from the selected categories and their sales for the selected span of time, in terms of number of pieces sold, their weight and value of the sales.
+
+The app further calculates the contribution of each product to the toal sales and the sales of the Category to which it belongs to.
+
+--- .class #id 
+
+## Further Advancements
+
+The app can be further improved by incorporating plots like these for easy comparison between different categories.
+
+
+![plot of chunk unnamed-chunk-2](assets/fig/unnamed-chunk-2-1.png)
+
+--- .class #id
+
+## Usefull Links
+
+
+[Github Repository](https://github.com/dhruvangjhaveri/ProductSalesReport_ShinyApp/tree/gh-pages/ProductSalesReport)
+
+[App Link](https://dhruvang.shinyapps.io/ProductSalesReport/)
+
+
+

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Product Sales Report</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Product Sales Report">
+  <meta name="author" content="Dhruvang Jhaveri">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  <link rel=stylesheet href="./assets/css/ribbons.css"></link>
+
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+        <slide class="title-slide segue nobackground">
+  <hgroup class="auto-fadein">
+    <h1>Product Sales Report</h1>
+    <h2>An Interactive App</h2>
+    <p>Dhruvang Jhaveri<br/></p>
+  </hgroup>
+  <article></article>  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="" id="slide-1" style="background:;">
+  <hgroup>
+    <h2>Motivation</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>HomeLine Products is a Manufacturing Firm that produces a wide variety of 
+plastic products. These products can be broadly classified into 11 different
+categories as follows,</p>
+
+<pre><code>##  [1] Lunch Box                       Water Bottle                   
+##  [3] Compass Box                     Food Store Container &amp; Bowls   
+##  [5] Tray &amp; Plates                   Glasses                        
+##  [7] Stationery Items                Soap Case &amp; Bath Tumblers      
+##  [9] Other Items                     Meal Set Items &amp; Gift Set Items
+## [11] Cloth Clips                    
+## 11 Levels: Cloth Clips Compass Box ... Water Bottle
+</code></pre>
+
+<p>This app allows the user to see the sales of each product over a desired
+span of time and shows how much a particular product contributes to the 
+overall sales as well as the sales of the particular category to which the product belongs. The app contains data from January 2015 to March 2016.</p>
+
+<p>IMPORTANT NOTE- The sales numbers have been randomised and manipulated 
+in order to avoid disclosing confidential company data.</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Input/Outputs Explained</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>Inputs-
+The Begning Month, Begning Year, Ending Month and Ending Year allows the user to enter a span of time for which sales has to be viewed.</p>
+
+<p>Group visiblity controls what categories the user wants to view.</p>
+
+<p>Outputs-
+The Output is a datatable that shows the Items from the selected categories and their sales for the selected span of time, in terms of number of pieces sold, their weight and value of the sales.</p>
+
+<p>The app further calculates the contribution of each product to the toal sales and the sales of the Category to which it belongs to.</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Further Advancements</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>The app can be further improved by incorporating plots like these for easy comparison between different categories.</p>
+
+<p><img src="assets/fig/unnamed-chunk-2-1.png" alt="plot of chunk unnamed-chunk-2"></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Usefull Links</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><a href="https://github.com/dhruvangjhaveri/ProductSalesReport_ShinyApp/tree/gh-pages/ProductSalesReport">Github Repository</a></p>
+
+<p><a href="https://dhruvang.shinyapps.io/ProductSalesReport/">App Link</a></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title='Motivation'>
+         1
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='Input/Outputs Explained'>
+         2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='Further Advancements'>
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='Usefull Links'>
+         4
+      </a>
+    </li>
+  </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  
+  <!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>

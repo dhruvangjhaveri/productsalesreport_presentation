@@ -1,0 +1,7 @@
+name: Publish Document
+account: rpubs
+server: rpubs.com
+appId: https://api.rpubs.com/api/v1/document/183782/780253a1ea274337b2f34ccdef5f7225
+bundleId: https://api.rpubs.com/api/v1/document/183782/780253a1ea274337b2f34ccdef5f7225
+url: http://rpubs.com/dhruvangjhaveri/183782
+when: 1464201038.9956
